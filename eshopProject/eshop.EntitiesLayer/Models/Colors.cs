@@ -16,7 +16,7 @@ namespace eshop.EntitiesLayer.Models
         public int Code { get; set; }
         public string Name { get; set; }
 
-        // Bu caolor hangş ürnün
+        // Bu caolor hangş ürnüns
         public int ProductId { get; set; }
         public virtual Product Product { get; set; }
     }
