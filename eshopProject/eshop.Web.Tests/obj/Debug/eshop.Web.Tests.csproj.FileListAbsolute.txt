@@ -97,3 +97,5 @@ C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\Autofac.Integration.M
 C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.DataAccessLayer.pdb
 C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.CoreLayer.pdb
 C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\EntityFramework.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\EntityFramework.SqlServer.xml
