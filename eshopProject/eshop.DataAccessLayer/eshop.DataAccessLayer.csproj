@@ -47,8 +47,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IBasketDal.cs" />
+    <Compile Include="Abstract\IBillAdressDal.cs" />
+    <Compile Include="Abstract\IBrandDal.cs" />
     <Compile Include="Abstract\ICategoryDal.cs" />
+    <Compile Include="Abstract\IColorsDal.cs" />
+    <Compile Include="Abstract\ICommentsDal.cs" />
+    <Compile Include="Abstract\ICredicartDal.cs" />
+    <Compile Include="Abstract\ICustomerDal.cs" />
+    <Compile Include="Abstract\IDiscountDal.cs" />
+    <Compile Include="Abstract\IFavDal.cs" />
+    <Compile Include="Abstract\IHomeSliderDal.cs" />
+    <Compile Include="Abstract\IImageFilesDal.cs" />
+    <Compile Include="Abstract\IProductDal.cs" />
+    <Compile Include="Abstract\ISalesDal.cs" />
+    <Compile Include="Abstract\ISizeDal.cs" />
+    <Compile Include="Abstract\ISubCategoryDal.cs" />
+    <Compile Include="Concreate\EfBasketDal.cs" />
+    <Compile Include="Concreate\EfBillAdressDal.cs" />
+    <Compile Include="Concreate\EfBrandDal.cs" />
     <Compile Include="Concreate\EfCategoryDal.cs" />
+    <Compile Include="Concreate\EfColorsDal.cs" />
+    <Compile Include="Concreate\EfCommentsDal.cs" />
+    <Compile Include="Concreate\EfCredicartDal.cs" />
+    <Compile Include="Concreate\EfCustomerDal.cs" />
+    <Compile Include="Concreate\EfDiscountDal.cs" />
+    <Compile Include="Concreate\EfFavDal.cs" />
+    <Compile Include="Concreate\EfHomeSliderDal.cs" />
+    <Compile Include="Concreate\EfImageFilesDal.cs" />
+    <Compile Include="Concreate\EfProductDal.cs" />
+    <Compile Include="Concreate\EfSalesDal.cs" />
+    <Compile Include="Concreate\EfSizeDal.cs" />
+    <Compile Include="Concreate\EfSubCategoryDal.cs" />
     <Compile Include="DAL\DatabaseContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

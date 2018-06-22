@@ -19,3 +19,11 @@ D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.DataAccessLayer\bin\Debug\Enti
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.DataAccessLayer\bin\Debug\eshop.CoreLayer.pdb
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.DataAccessLayer\obj\Debug\eshop.DataAccessLayer.csproj.CopyComplete
+C:\e-commerce\eshop\eshopProject\eshop.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\e-commerce\eshop\eshopProject\eshop.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\e-commerce\eshop\eshopProject\eshop.DataAccessLayer\bin\Debug\eshop.CoreLayer.dll
+C:\e-commerce\eshop\eshopProject\eshop.DataAccessLayer\bin\Debug\eshop.EntitiesLayer.dll
+C:\e-commerce\eshop\eshopProject\eshop.DataAccessLayer\bin\Debug\eshop.CoreLayer.pdb
+C:\e-commerce\eshop\eshopProject\eshop.DataAccessLayer\bin\Debug\eshop.EntitiesLayer.pdb
+C:\e-commerce\eshop\eshopProject\eshop.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\e-commerce\eshop\eshopProject\eshop.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml

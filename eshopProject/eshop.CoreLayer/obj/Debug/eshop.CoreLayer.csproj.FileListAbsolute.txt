@@ -10,3 +10,7 @@ D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.CoreLayer\obj\Debug\eshop.Core
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.CoreLayer\obj\Debug\eshop.CoreLayer.csproj.CoreCompileInputs.cache
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.CoreLayer\obj\Debug\eshop.CoreLayer.dll
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.CoreLayer\obj\Debug\eshop.CoreLayer.pdb
+C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\bin\Debug\EntityFramework.dll
+C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\bin\Debug\EntityFramework.xml
+C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\bin\Debug\EntityFramework.SqlServer.xml
