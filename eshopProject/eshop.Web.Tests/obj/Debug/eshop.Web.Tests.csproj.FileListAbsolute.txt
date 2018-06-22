@@ -69,3 +69,17 @@ D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\obj\Debug\eshop.Web.
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\obj\Debug\eshop.Web.Tests.csproj.CopyComplete
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\obj\Debug\eshop.Web.Tests.dll
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\obj\Debug\eshop.Web.Tests.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.BusinessLayer.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\Autofac.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.DataAccessLayer.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.EntitiesLayer.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.CoreLayer.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\EntityFramework.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.BusinessLayer.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\Autofac.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.DataAccessLayer.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.EntitiesLayer.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.CoreLayer.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\EntityFramework.xml

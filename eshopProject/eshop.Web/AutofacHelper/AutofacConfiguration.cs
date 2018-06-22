@@ -1,5 +1,7 @@
 ﻿using Autofac;
 using Autofac.Integration.Mvc;
+using eshop.BusinessLayer.Abstract;
+using eshop.BusinessLayer.Concreate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +24,7 @@ namespace eshop.Web.AutofacHelper
             builder.RegisterControllers(Assembly.GetExecutingAssembly());
 
             // cast işlemler 
-            //builder.RegisterType<>
+            builder.RegisterType<CategoryManager>().As<ICategoryServices>();
 
             IContainer container =  builder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
