@@ -18,7 +18,7 @@ namespace eshop.Web.AutofacHelper
         /// </summary>
         public static void Config()
         {
-            // get the builder 
+            // get the builder yaptım
             var builder = new ContainerBuilder();
 
             builder.RegisterControllers(Assembly.GetExecutingAssembly());
