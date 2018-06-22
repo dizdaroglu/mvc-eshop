@@ -9,3 +9,12 @@ D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\obj\Debug\eshop.
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\obj\Debug\eshop.BusinessLayer.csproj.CoreCompileInputs.cache
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\obj\Debug\eshop.BusinessLayer.dll
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\obj\Debug\eshop.BusinessLayer.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\bin\Debug\eshop.CoreLayer.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\bin\Debug\eshop.DataAccessLayer.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\bin\Debug\eshop.EntitiesLayer.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\bin\Debug\EntityFramework.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\bin\Debug\eshop.CoreLayer.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\bin\Debug\eshop.DataAccessLayer.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\bin\Debug\eshop.EntitiesLayer.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\bin\Debug\EntityFramework.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\obj\Debug\eshop.BusinessLayer.csproj.CopyComplete

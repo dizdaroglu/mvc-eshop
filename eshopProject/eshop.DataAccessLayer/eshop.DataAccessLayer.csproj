@@ -80,6 +80,8 @@
     <Compile Include="Concreate\EfSizeDal.cs" />
     <Compile Include="Concreate\EfSubCategoryDal.cs" />
     <Compile Include="DAL\DatabaseContext.cs" />
+    <Compile Include="IUnitOfWorkPattern\Abstract\IUnitOfWork.cs" />
+    <Compile Include="IUnitOfWorkPattern\Concreate\UnitofWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

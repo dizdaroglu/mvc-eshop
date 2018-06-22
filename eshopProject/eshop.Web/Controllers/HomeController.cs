@@ -1,4 +1,6 @@
-﻿using System;
+﻿using eshop.BusinessLayer.Abstract;
+using eshop.EntitiesLayer.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,8 +10,15 @@ namespace eshop.Web.Controllers
 {
     public class HomeController : Controller
     {
+        private ICategoryServices _categoryServices;
+        public HomeController(ICategoryServices categoryServices)
+        {
+            _categoryServices = categoryServices;
+        }
+
         public ActionResult Index()
         {
+             List<Category> list = _categoryServices.GetCategories();
             return View();
         }
 

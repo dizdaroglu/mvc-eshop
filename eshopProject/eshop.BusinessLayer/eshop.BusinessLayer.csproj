@@ -40,7 +40,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\ICategoryServices.cs" />
+    <Compile Include="Concreate\CategoryManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\eshop.CoreLayer\eshop.CoreLayer.csproj">
+      <Project>{371546b9-c44a-4009-bde7-b35f78ff8932}</Project>
+      <Name>eshop.CoreLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eshop.DataAccessLayer\eshop.DataAccessLayer.csproj">
+      <Project>{39B8F907-3750-4405-A0C5-5440D0D0420F}</Project>
+      <Name>eshop.DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eshop.EntitiesLayer\eshop.EntitiesLayer.csproj">
+      <Project>{853A4609-8BE4-48BE-92EE-A619CB8674BF}</Project>
+      <Name>eshop.EntitiesLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
