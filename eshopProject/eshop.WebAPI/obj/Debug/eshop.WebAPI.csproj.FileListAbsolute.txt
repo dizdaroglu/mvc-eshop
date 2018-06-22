@@ -15,3 +15,21 @@ C:\e-commerce\eshop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.csprojResol
 C:\e-commerce\eshop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.csproj.CoreCompileInputs.cache
 C:\e-commerce\eshop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.dll
 C:\e-commerce\eshop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\bin\eshop.WebAPI.dll.config
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\bin\eshop.WebAPI.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\bin\eshop.WebAPI.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\bin\Newtonsoft.Json.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\bin\System.Net.Http.Formatting.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\bin\System.Web.Http.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\bin\System.Web.Http.WebHost.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\bin\Newtonsoft.Json.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\bin\System.Net.Http.Formatting.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\bin\System.Web.Http.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\bin\System.Web.Http.WebHost.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.csprojAssemblyReference.cache
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.csproj.CoreCompileInputs.cache
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.csproj.CopyComplete
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.pdb

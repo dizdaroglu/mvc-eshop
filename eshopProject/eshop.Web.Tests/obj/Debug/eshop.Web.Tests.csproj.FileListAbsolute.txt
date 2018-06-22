@@ -33,3 +33,39 @@ C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\obj\Debug\eshop.Web.Tests.cspro
 C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\obj\Debug\eshop.Web.Tests.csproj.CoreCompileInputs.cache
 C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\obj\Debug\eshop.Web.Tests.dll
 C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\obj\Debug\eshop.Web.Tests.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\ApplicationInsights.config
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.Web.Tests.dll.config
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.Web.Tests.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.Web.Tests.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.Web.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\System.Web.Helpers.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\System.Web.Mvc.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\System.Web.Razor.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\System.Web.WebPages.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\System.Web.Optimization.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.Web.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.Web.dll.config
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\System.Web.Helpers.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\System.Web.Mvc.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\System.Web.Razor.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\System.Web.WebPages.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\System.Web.Optimization.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\obj\Debug\eshop.Web.Tests.csprojAssemblyReference.cache
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\obj\Debug\eshop.Web.Tests.csproj.CoreCompileInputs.cache
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\obj\Debug\eshop.Web.Tests.csproj.CopyComplete
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\obj\Debug\eshop.Web.Tests.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\obj\Debug\eshop.Web.Tests.pdb

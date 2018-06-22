@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,15 +41,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\BaseEntity.cs" />
     <Compile Include="Models\Basket.cs" />
+    <Compile Include="Models\BillAddress.cs" />
     <Compile Include="Models\Brand.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Colors.cs" />
+    <Compile Include="Models\Comments.cs" />
     <Compile Include="Models\Credicart.cs" />
+    <Compile Include="Models\CreditCartType.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Discount.cs" />
     <Compile Include="Models\Fav.cs" />
     <Compile Include="Models\HomeSlider.cs" />
+    <Compile Include="Models\ImageFiles.cs" />
+    <Compile Include="Models\Product.cs" />
     <Compile Include="Models\Sales.cs" />
+    <Compile Include="Models\Size.cs" />
+    <Compile Include="Models\SubCategory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\eshop.CoreLayer\eshop.CoreLayer.csproj">
+      <Project>{371546B9-C44A-4009-BDE7-B35F78FF8932}</Project>
+      <Name>eshop.CoreLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

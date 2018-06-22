@@ -40,3 +40,46 @@ C:\e-commerce\eshop\eshopProject\eshop.Web\obj\Debug\eshop.Web.csprojResolveAsse
 C:\e-commerce\eshop\eshopProject\eshop.Web\obj\Debug\eshop.Web.csproj.CoreCompileInputs.cache
 C:\e-commerce\eshop\eshopProject\eshop.Web\obj\Debug\eshop.Web.dll
 C:\e-commerce\eshop\eshopProject\eshop.Web\obj\Debug\eshop.Web.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\ApplicationInsights.config
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\eshop.Web.dll.config
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\eshop.Web.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\eshop.Web.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\Antlr3.Runtime.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\Microsoft.AI.Agent.Intercept.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\Microsoft.AI.DependencyCollector.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\Microsoft.AI.Web.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\Microsoft.AI.WindowsServer.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\Microsoft.ApplicationInsights.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\Newtonsoft.Json.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\System.Web.Helpers.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\System.Web.Mvc.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\System.Web.Optimization.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\System.Web.Razor.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\System.Web.WebPages.Deployment.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\System.Web.WebPages.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\System.Web.WebPages.Razor.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\WebGrease.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\System.Web.Helpers.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\System.Web.Mvc.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\System.Web.Optimization.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\System.Web.Razor.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\System.Web.WebPages.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\System.Web.WebPages.Deployment.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\System.Web.WebPages.Razor.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\Antlr3.Runtime.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\Newtonsoft.Json.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\Microsoft.ApplicationInsights.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\Microsoft.AI.DependencyCollector.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\Microsoft.AI.WindowsServer.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\Microsoft.AI.Web.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\obj\Debug\eshop.Web.csprojAssemblyReference.cache
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\obj\Debug\eshop.Web.csproj.CoreCompileInputs.cache
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\obj\Debug\eshop.Web.csproj.CopyComplete
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\obj\Debug\eshop.Web.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\obj\Debug\eshop.Web.pdb

@@ -4,3 +4,7 @@ C:\e-commerce\eshop\eshopProject\eshop.EntitiesLayer\obj\Debug\eshop.EntitiesLay
 C:\e-commerce\eshop\eshopProject\eshop.EntitiesLayer\obj\Debug\eshop.EntitiesLayer.csproj.CoreCompileInputs.cache
 C:\e-commerce\eshop\eshopProject\eshop.EntitiesLayer\obj\Debug\eshop.EntitiesLayer.dll
 C:\e-commerce\eshop\eshopProject\eshop.EntitiesLayer\obj\Debug\eshop.EntitiesLayer.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.EntitiesLayer\obj\Debug\eshop.EntitiesLayer.csprojAssemblyReference.cache
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.EntitiesLayer\obj\Debug\eshop.EntitiesLayer.csproj.CoreCompileInputs.cache
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.EntitiesLayer\obj\Debug\eshop.EntitiesLayer.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.EntitiesLayer\obj\Debug\eshop.EntitiesLayer.pdb
