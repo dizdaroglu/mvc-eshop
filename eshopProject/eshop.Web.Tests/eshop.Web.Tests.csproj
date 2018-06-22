@@ -35,6 +35,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework">
       <HintPath>..\packages\MSTest.TestFramework.1.1.17\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
@@ -90,6 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\CategoryTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
@@ -98,6 +105,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\eshop.BusinessLayer\eshop.BusinessLayer.csproj">
+      <Project>{45AF6445-A462-478A-B21F-6B4FA8D2A934}</Project>
+      <Name>eshop.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eshop.EntitiesLayer\eshop.EntitiesLayer.csproj">
+      <Project>{853A4609-8BE4-48BE-92EE-A619CB8674BF}</Project>
+      <Name>eshop.EntitiesLayer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\eshop.Web\eshop.Web.csproj">
       <Project>{ACBA4DEB-ECB7-4779-BD93-3C31A4C1A859}</Project>
       <Name>eshop.Web</Name>
