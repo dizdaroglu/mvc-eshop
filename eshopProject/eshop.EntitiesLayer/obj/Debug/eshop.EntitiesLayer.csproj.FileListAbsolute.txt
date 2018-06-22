@@ -13,3 +13,7 @@ D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.EntitiesLayer\bin\Debug\eshop.
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.EntitiesLayer\bin\Debug\eshop.CoreLayer.dll
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.EntitiesLayer\bin\Debug\eshop.CoreLayer.pdb
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.EntitiesLayer\obj\Debug\eshop.EntitiesLayer.csproj.CopyComplete
+C:\e-commerce\eshop\eshopProject\eshop.EntitiesLayer\bin\Debug\eshop.CoreLayer.dll
+C:\e-commerce\eshop\eshopProject\eshop.EntitiesLayer\bin\Debug\EntityFramework.dll
+C:\e-commerce\eshop\eshopProject\eshop.EntitiesLayer\bin\Debug\eshop.CoreLayer.pdb
+C:\e-commerce\eshop\eshopProject\eshop.EntitiesLayer\bin\Debug\EntityFramework.xml
