@@ -47,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\ICategoryDal.cs" />
+    <Compile Include="Concreate\EfCategoryDal.cs" />
     <Compile Include="DAL\DatabaseContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -54,6 +56,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\eshop.CoreLayer\eshop.CoreLayer.csproj">
+      <Project>{371546B9-C44A-4009-BDE7-B35F78FF8932}</Project>
+      <Name>eshop.CoreLayer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\eshop.EntitiesLayer\eshop.EntitiesLayer.csproj">
       <Project>{853A4609-8BE4-48BE-92EE-A619CB8674BF}</Project>
       <Name>eshop.EntitiesLayer</Name>

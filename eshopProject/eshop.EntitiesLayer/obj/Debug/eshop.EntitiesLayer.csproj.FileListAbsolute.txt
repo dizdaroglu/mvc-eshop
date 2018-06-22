@@ -8,3 +8,8 @@ D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.EntitiesLayer\obj\Debug\eshop.
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.EntitiesLayer\obj\Debug\eshop.EntitiesLayer.csproj.CoreCompileInputs.cache
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.EntitiesLayer\obj\Debug\eshop.EntitiesLayer.dll
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.EntitiesLayer\obj\Debug\eshop.EntitiesLayer.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.EntitiesLayer\bin\Debug\eshop.EntitiesLayer.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.EntitiesLayer\bin\Debug\eshop.EntitiesLayer.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.EntitiesLayer\bin\Debug\eshop.CoreLayer.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.EntitiesLayer\bin\Debug\eshop.CoreLayer.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.EntitiesLayer\obj\Debug\eshop.EntitiesLayer.csproj.CopyComplete
