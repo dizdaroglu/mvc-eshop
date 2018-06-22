@@ -1,0 +1,5 @@
+C:\e-commerce\eshop\eshopProject\eshop.BusinessLayer\bin\Debug\eshop.BusinessLayer.dll
+C:\e-commerce\eshop\eshopProject\eshop.BusinessLayer\bin\Debug\eshop.BusinessLayer.pdb
+C:\e-commerce\eshop\eshopProject\eshop.BusinessLayer\obj\Debug\eshop.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\e-commerce\eshop\eshopProject\eshop.BusinessLayer\obj\Debug\eshop.BusinessLayer.dll
+C:\e-commerce\eshop\eshopProject\eshop.BusinessLayer\obj\Debug\eshop.BusinessLayer.pdb

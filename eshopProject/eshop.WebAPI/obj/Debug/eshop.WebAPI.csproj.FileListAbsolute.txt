@@ -1,0 +1,17 @@
+C:\e-commerce\eshop\eshopProject\eshop.WebAPI\bin\eshop.WebAPI.dll.config
+C:\e-commerce\eshop\eshopProject\eshop.WebAPI\bin\eshop.WebAPI.dll
+C:\e-commerce\eshop\eshopProject\eshop.WebAPI\bin\eshop.WebAPI.pdb
+C:\e-commerce\eshop\eshopProject\eshop.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\e-commerce\eshop\eshopProject\eshop.WebAPI\bin\Newtonsoft.Json.dll
+C:\e-commerce\eshop\eshopProject\eshop.WebAPI\bin\System.Net.Http.Formatting.dll
+C:\e-commerce\eshop\eshopProject\eshop.WebAPI\bin\System.Web.Http.dll
+C:\e-commerce\eshop\eshopProject\eshop.WebAPI\bin\System.Web.Http.WebHost.dll
+C:\e-commerce\eshop\eshopProject\eshop.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\e-commerce\eshop\eshopProject\eshop.WebAPI\bin\Newtonsoft.Json.xml
+C:\e-commerce\eshop\eshopProject\eshop.WebAPI\bin\System.Net.Http.Formatting.xml
+C:\e-commerce\eshop\eshopProject\eshop.WebAPI\bin\System.Web.Http.xml
+C:\e-commerce\eshop\eshopProject\eshop.WebAPI\bin\System.Web.Http.WebHost.xml
+C:\e-commerce\eshop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.csprojResolveAssemblyReference.cache
+C:\e-commerce\eshop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.csproj.CoreCompileInputs.cache
+C:\e-commerce\eshop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.dll
+C:\e-commerce\eshop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.pdb

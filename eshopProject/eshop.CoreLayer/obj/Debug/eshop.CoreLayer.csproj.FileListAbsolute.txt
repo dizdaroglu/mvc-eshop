@@ -1,0 +1,6 @@
+C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\bin\Debug\eshop.CoreLayer.dll
+C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\bin\Debug\eshop.CoreLayer.pdb
+C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\obj\Debug\eshop.CoreLayer.csprojResolveAssemblyReference.cache
+C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\obj\Debug\eshop.CoreLayer.csproj.CoreCompileInputs.cache
+C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\obj\Debug\eshop.CoreLayer.dll
+C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\obj\Debug\eshop.CoreLayer.pdb
