@@ -35,5 +35,15 @@ namespace eshop.Web.Controllers
 
             return View();
         }
+        public ActionResult _CategoryListPartial()
+        {
+            List<Category> list = _categoryServices.GetCategories();
+            return View(list);
+        }
+        public ActionResult _SearchPartial()
+        {
+            List<Category> liste = _categoryServices.GetCategories();
+            return View(liste);
+        }
     }
 }

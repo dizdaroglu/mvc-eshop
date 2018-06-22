@@ -83,3 +83,17 @@ D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.Data
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.EntitiesLayer.pdb
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.CoreLayer.pdb
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\EntityFramework.xml
+C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.BusinessLayer.dll
+C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.EntitiesLayer.dll
+C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\Autofac.dll
+C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.DataAccessLayer.dll
+C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.CoreLayer.dll
+C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\EntityFramework.dll
+C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.BusinessLayer.pdb
+C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.EntitiesLayer.pdb
+C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\Autofac.xml
+C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.DataAccessLayer.pdb
+C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.CoreLayer.pdb
+C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\EntityFramework.xml

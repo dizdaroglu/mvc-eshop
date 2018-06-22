@@ -99,3 +99,19 @@ D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\eshop.CoreLayer.pdb
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\EntityFramework.xml
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\EntityFramework.SqlServer.dll
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web\bin\EntityFramework.SqlServer.xml
+C:\e-commerce\eshop\eshopProject\eshop.Web\bin\Autofac.dll
+C:\e-commerce\eshop\eshopProject\eshop.Web\bin\Autofac.Integration.Mvc.dll
+C:\e-commerce\eshop\eshopProject\eshop.Web\bin\EntityFramework.dll
+C:\e-commerce\eshop\eshopProject\eshop.Web\bin\EntityFramework.SqlServer.dll
+C:\e-commerce\eshop\eshopProject\eshop.Web\bin\eshop.BusinessLayer.dll
+C:\e-commerce\eshop\eshopProject\eshop.Web\bin\eshop.EntitiesLayer.dll
+C:\e-commerce\eshop\eshopProject\eshop.Web\bin\eshop.DataAccessLayer.dll
+C:\e-commerce\eshop\eshopProject\eshop.Web\bin\eshop.CoreLayer.dll
+C:\e-commerce\eshop\eshopProject\eshop.Web\bin\eshop.BusinessLayer.pdb
+C:\e-commerce\eshop\eshopProject\eshop.Web\bin\eshop.EntitiesLayer.pdb
+C:\e-commerce\eshop\eshopProject\eshop.Web\bin\Autofac.xml
+C:\e-commerce\eshop\eshopProject\eshop.Web\bin\Autofac.Integration.Mvc.xml
+C:\e-commerce\eshop\eshopProject\eshop.Web\bin\EntityFramework.xml
+C:\e-commerce\eshop\eshopProject\eshop.Web\bin\EntityFramework.SqlServer.xml
+C:\e-commerce\eshop\eshopProject\eshop.Web\bin\eshop.DataAccessLayer.pdb
+C:\e-commerce\eshop\eshopProject\eshop.Web\bin\eshop.CoreLayer.pdb

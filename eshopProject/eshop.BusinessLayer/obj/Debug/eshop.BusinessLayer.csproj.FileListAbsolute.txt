@@ -18,3 +18,12 @@ D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\bin\Debug\eshop.
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\bin\Debug\eshop.EntitiesLayer.pdb
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\bin\Debug\EntityFramework.xml
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\obj\Debug\eshop.BusinessLayer.csproj.CopyComplete
+C:\e-commerce\eshop\eshopProject\eshop.BusinessLayer\bin\Debug\eshop.CoreLayer.dll
+C:\e-commerce\eshop\eshopProject\eshop.BusinessLayer\bin\Debug\eshop.DataAccessLayer.dll
+C:\e-commerce\eshop\eshopProject\eshop.BusinessLayer\bin\Debug\eshop.EntitiesLayer.dll
+C:\e-commerce\eshop\eshopProject\eshop.BusinessLayer\bin\Debug\EntityFramework.dll
+C:\e-commerce\eshop\eshopProject\eshop.BusinessLayer\bin\Debug\eshop.CoreLayer.pdb
+C:\e-commerce\eshop\eshopProject\eshop.BusinessLayer\bin\Debug\eshop.DataAccessLayer.pdb
+C:\e-commerce\eshop\eshopProject\eshop.BusinessLayer\bin\Debug\eshop.EntitiesLayer.pdb
+C:\e-commerce\eshop\eshopProject\eshop.BusinessLayer\bin\Debug\EntityFramework.xml
+C:\e-commerce\eshop\eshopProject\eshop.BusinessLayer\obj\Debug\eshop.BusinessLayer.csprojResolveAssemblyReference.cache
