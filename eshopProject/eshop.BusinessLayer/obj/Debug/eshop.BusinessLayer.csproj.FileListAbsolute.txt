@@ -3,3 +3,9 @@ C:\e-commerce\eshop\eshopProject\eshop.BusinessLayer\bin\Debug\eshop.BusinessLay
 C:\e-commerce\eshop\eshopProject\eshop.BusinessLayer\obj\Debug\eshop.BusinessLayer.csproj.CoreCompileInputs.cache
 C:\e-commerce\eshop\eshopProject\eshop.BusinessLayer\obj\Debug\eshop.BusinessLayer.dll
 C:\e-commerce\eshop\eshopProject\eshop.BusinessLayer\obj\Debug\eshop.BusinessLayer.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\bin\Debug\eshop.BusinessLayer.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\bin\Debug\eshop.BusinessLayer.pdb
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\obj\Debug\eshop.BusinessLayer.csprojAssemblyReference.cache
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\obj\Debug\eshop.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\obj\Debug\eshop.BusinessLayer.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.BusinessLayer\obj\Debug\eshop.BusinessLayer.pdb
