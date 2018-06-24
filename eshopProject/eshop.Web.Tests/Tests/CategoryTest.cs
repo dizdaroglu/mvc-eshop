@@ -25,6 +25,7 @@ namespace eshop.Web.Tests.Tests
             foreach (var item in list)
             {
                 Debug.WriteLine(item.Description);
+                
             }
 
         }

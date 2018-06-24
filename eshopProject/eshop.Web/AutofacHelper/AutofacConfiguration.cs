@@ -25,6 +25,7 @@ namespace eshop.Web.AutofacHelper
 
             // cast işlemler 
             builder.RegisterType<CategoryManager>().As<ICategoryServices>();
+            builder.RegisterType<ProductManager>().As<IProductServices>();
 
             IContainer container =  builder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
