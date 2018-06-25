@@ -22,6 +22,12 @@ namespace eshop.Web.Controllers
             List<Product> list = _productServices.GetProductList();
             return View(list);
         }
+
+        public ActionResult Details(int id)
+        {
+            Product product = _productServices.GetProductById(id);
+            return View(product);
+        }
        
     }
 }

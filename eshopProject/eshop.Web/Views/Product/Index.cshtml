@@ -455,7 +455,7 @@
                 @{ Html.RenderAction("_PartialSizes", "Home");}
                 <!-- /aside widget -->
                 <!-- aside widget -->
-               @{ Html.RenderAction("_PartialBrands", "Home");}
+                @{ Html.RenderAction("_PartialBrands", "Home");}
                 <!-- /aside widget -->
                 <!-- aside widget -->
                 <div class="aside">
@@ -557,7 +557,10 @@
                                 <div class="product product-single">
                                     <div class="product-thumb">
                                         <button class="main-btn quick-view">
-                                            <i class="fa fa-search-plus"></i> Detay
+
+                                            <i class="fa fa-search-plus">
+
+                                            </i> Detay
                                         </button>
                                         @foreach (var images in item.ImageFiles.ToList())
                                         {
@@ -568,15 +571,15 @@
                                     <div class="product-body">
                                         <h3 class="product-price"> @item.UnitPrice TL </h3>
                                         <div class="product-rating">
-                                            @for (int i=0; i<item.Star; i++)
+                                            @for (int i = 0; i < item.Star; i++)
                                             {
-                                              
+
                                                 <i class="fa fa-star"></i>
                                             }
 
                                             <i class="fa fa-star-o empty"></i>
                                         </div>
-                                        <h2 class="product-name"><a href="#">@item.Name</a></h2>
+                                        <h2 class="product-name"><a href="/Product/Details/@item.ProductId">@item.Name</a></h2>
                                         <div class="product-btns">
                                             <button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
                                             <button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
