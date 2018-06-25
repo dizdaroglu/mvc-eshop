@@ -11,20 +11,19 @@ using System.Threading.Tasks;
 namespace eshop.Web.Tests.Tests
 {
     [TestClass]
-   public class LoginTest
+    public class CustomerTest
     {
-        CustomerManager manager = null;
-
-        public LoginTest()
+        private CustomerManager cm = null;
+        public CustomerTest()
         {
-            manager = new CustomerManager();
+            cm = new CustomerManager();
         }
         [TestMethod]
-        public void Login()
+        public void GetCustomerByUsernameTest()
         {
-            bool userName = manager.CustomerLogin("ert123","1234546");
-            Debug.Write(userName);
-
+            Customer customer = cm.GetCustomerByUsername("ert123");
+            Debug.WriteLine(customer.Name);
         }
+
     }
 }

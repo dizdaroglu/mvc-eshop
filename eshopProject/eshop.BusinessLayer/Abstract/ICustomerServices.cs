@@ -10,5 +10,7 @@ namespace eshop.BusinessLayer.Abstract
     public interface ICustomerServices
     {
         bool CustomerLogin(string userName,string password);
+
+        Customer GetCustomerByUsername(String username);
     }
 }
