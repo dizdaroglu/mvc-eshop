@@ -43,11 +43,17 @@
     <Compile Include="Abstract\IBrandServices.cs" />
     <Compile Include="Abstract\ICategoryServices.cs" />
     <Compile Include="Abstract\IColorServices.cs" />
+    <Compile Include="Abstract\ICustomerServices.cs" />
+    <Compile Include="Abstract\IFavServices.cs" />
+    <Compile Include="Abstract\IHomeSliderServices.cs" />
     <Compile Include="Abstract\IProductServices.cs" />
     <Compile Include="Abstract\ISizeServices.cs" />
     <Compile Include="Concreate\BrandManager.cs" />
     <Compile Include="Concreate\CategoryManager.cs" />
     <Compile Include="Concreate\ColorManager.cs" />
+    <Compile Include="Concreate\CustomerManager.cs" />
+    <Compile Include="Concreate\FavManager.cs" />
+    <Compile Include="Concreate\HomeSliderManager.cs" />
     <Compile Include="Concreate\ProductManager.cs" />
     <Compile Include="Concreate\SizeManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

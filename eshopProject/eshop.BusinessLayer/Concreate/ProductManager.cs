@@ -18,7 +18,10 @@ namespace eshop.BusinessLayer.Concreate
             _unitOfWork = new UnitofWork(new DataAccessLayer.DAL.DatabaseContext());
         }
 
-        
+        public Product GetProductById(int productId)
+        {
+            return _unitOfWork.ProductDal.Find(m => m.ProductId == productId);
+        }
 
         public List<Product> GetProductList()
         {

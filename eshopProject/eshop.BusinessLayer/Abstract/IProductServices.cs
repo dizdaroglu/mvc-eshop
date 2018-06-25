@@ -11,7 +11,7 @@ namespace eshop.BusinessLayer.Abstract
     {
         List<Product>  GetProductList();
 
-
+        Product GetProductById(int productId);
 
 
 

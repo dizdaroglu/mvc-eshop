@@ -160,6 +160,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\LoginDto.cs" />
     <Compile Include="Models\ProductDtoModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -263,6 +264,7 @@
     <Content Include="Views\Shared\_PartialColors.cshtml" />
     <Content Include="Views\Shared\_PartialSizes.cshtml" />
     <Content Include="Views\Shared\_PartialBrands.cshtml" />
+    <Content Include="Views\Product\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -275,6 +277,10 @@
     <ProjectReference Include="..\eshop.BusinessLayer\eshop.BusinessLayer.csproj">
       <Project>{45AF6445-A462-478A-B21F-6B4FA8D2A934}</Project>
       <Name>eshop.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eshop.CoreLayer\eshop.CoreLayer.csproj">
+      <Project>{371546B9-C44A-4009-BDE7-B35F78FF8932}</Project>
+      <Name>eshop.CoreLayer</Name>
     </ProjectReference>
     <ProjectReference Include="..\eshop.EntitiesLayer\eshop.EntitiesLayer.csproj">
       <Project>{853A4609-8BE4-48BE-92EE-A619CB8674BF}</Project>
