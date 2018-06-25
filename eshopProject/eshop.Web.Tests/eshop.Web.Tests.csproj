@@ -99,6 +99,8 @@
     <Compile Include="Tests\BrandTest.cs" />
     <Compile Include="Tests\CategoryTest.cs" />
     <Compile Include="Tests\ColorTest.cs" />
+    <Compile Include="Tests\CustomerTest.cs" />
+    <Compile Include="Tests\LoginTest.cs" />
     <Compile Include="Tests\ProductTest.cs" />
     <Compile Include="Tests\SizeTest.cs" />
   </ItemGroup>

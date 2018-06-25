@@ -25,5 +25,11 @@ namespace eshop.BusinessLayer.Concreate
             
          
         }
+
+        public Customer GetCustomerByUsername(string username)
+        {
+            return unitOfWork.CustomerDal.Find(m => m.UserName.Equals(username));
+        }
+
     }
 }

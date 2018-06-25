@@ -29,6 +29,7 @@ namespace eshop.Web.AutofacHelper
             builder.RegisterType<ColorManager>().As<IColorServices>();
             builder.RegisterType<SizeManager>().As<ISizeServices>();
             builder.RegisterType<BrandManager>().As<IBrandServices>();
+            builder.RegisterType<CustomerManager>().As<ICustomerServices>();
 
             IContainer container =  builder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));

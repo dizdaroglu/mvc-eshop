@@ -3,7 +3,7 @@
     ViewBag.Title = "Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+<script src="~/Scripts/jquery-1.10.2.js"></script>
 <div id="breadcrumb">
     <div class="container">
         <ul class="breadcrumb">
@@ -32,7 +32,7 @@
                             </div>
                         }
 
-                       
+
                     </div>
                     <div id="product-view">
                         @foreach (var item in Model.ImageFiles.ToList())
@@ -42,7 +42,7 @@
                             </div>
                         }
 
-                       
+
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -62,7 +62,7 @@
                                 }
                                 @for (int i = 0; i < 5 - Model.Star; i++)
                                 {
-                                    
+
                                     <i class="fa fa-star-o empty"></i>
                                 }
 
@@ -72,7 +72,7 @@
                         <p><strong>Availability:</strong> In Stock</p>
                         <p><strong>Brand:</strong>@Model.Brand.BrandName</p>
                         <p>
-                           @Model.Description
+                            @Model.Description
                         </p>
                         <div class="product-options">
                             <ul class="size-option">
@@ -85,7 +85,7 @@
                                 {
                                     <li><a href="#">@item.SizeName</a></li>
                                 }
-            
+
                             </ul>
                             <ul class="color-option">
                                 <li><span class="text-uppercase">Color:</span></li>
@@ -98,7 +98,7 @@
                                     <li><a href="#" style="background-color:#@item.Code;"></a></li>
                                 }
 
-                               
+
                             </ul>
                         </div>
 
@@ -126,7 +126,7 @@
                         <div class="tab-content">
                             <div id="tab1" class="tab-pane fade in active">
                                 <p>
-                                   @Model.Description
+                                    @Model.Description
                                 </p>
                             </div>
                             <div id="tab2" class="tab-pane fade in">
@@ -145,7 +145,7 @@
                                                             {
                                                                 <i class="fa fa-star"></i>
                                                             }
-                                                            @for (int i = 0; i < 5-item.Product.Star; i++)
+                                                            @for (int i = 0; i < 5 - item.Product.Star; i++)
                                                             {
                                                                 <i class="fa fa-star-o empty"></i>
                                                             }
@@ -173,32 +173,36 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <h4 class="text-uppercase">Write Your Review</h4>
-                                        <p>Your email address will not be published.</p>
-                                        <form class="review-form">
-                                            <div class="form-group">
-                                                <input class="input" type="text" placeholder="Your Name" />
-                                            </div>
-                                            <div class="form-group">
-                                                <input class="input" type="email" placeholder="Email Address" />
-                                            </div>
-                                            <div class="form-group">
-                                                <textarea class="input" placeholder="Your review"></textarea>
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="input-rating">
-                                                    <strong class="text-uppercase">Your Rating: </strong>
-                                                    <div class="stars">
-                                                        <input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
-                                                        <input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
-                                                        <input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
-                                                        <input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
-                                                        <input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label>
+                                        <h4 class="text-uppercase">Yorum Paylaş</h4>
+                                        <!-- Eger Kullanici yoksa bu sayfa gorulecek! -->
+                                        <!-- Eger Kullanici varsa  sadece text alani gorulecek! gorulecek! -->
+                                        <!-- <p>Your email address will not be published.</p> -->
+                                        
+                                            <form class="review-form">
+                  
+
+                                                <div class="form-group">
+                                                    <textarea class="input" placeholder="Bir yorum yaz"  id="txtComment">
+
+                                                </textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="input-rating">
+                                                        <strong class="text-uppercase">Oy Ver </strong>
+                                                        <div class="stars">
+                                                            <input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
+                                                            <input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
+                                                            <input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
+                                                            <input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
+                                                            <input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <button class="primary-btn">Submit</button>
-                                        </form>
+                                                <button class="primary-btn" id="btnComment" >Yorum  Yap </button>
+
+
+                                            </form>
+                                      
                                     </div>
                                 </div>
 
@@ -349,4 +353,20 @@
     </div>
     <!-- /container -->
 </div>
+
+<script type="text/javascript" >
+    $(function () {
+        $("#btnComment").click(function () {
+            var commentText = $("#txtComment").val();
+            $.ajax({
+                url: "/Comment/DoComment",
+                data: { comment: commentText }
+            }).done(function () {
+                    alert("Yorum başarıyla yapıldı");
+                }).fail(function (err) {
+                    alert(err);
+            });
+        });
+    });
+</script>
 
