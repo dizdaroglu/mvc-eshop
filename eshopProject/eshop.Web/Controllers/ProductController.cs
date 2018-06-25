@@ -1,4 +1,6 @@
-﻿using System;
+﻿using eshop.BusinessLayer.Abstract;
+using eshop.EntitiesLayer.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,11 +10,17 @@ namespace eshop.Web.Controllers
 {
     public class ProductController : Controller
     {
+        private IProductServices _productServices;
 
+        public ProductController(IProductServices productServices)
+        {
+            _productServices = productServices;
+        }
         // GET: Product
         public ActionResult Index()
         {
-            return View();
+            List<Product> list = _productServices.GetProductList();
+            return View(list);
         }
        
     }

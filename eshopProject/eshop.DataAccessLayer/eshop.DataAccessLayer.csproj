@@ -82,6 +82,7 @@
     <Compile Include="DAL\DatabaseContext.cs" />
     <Compile Include="IUnitOfWorkPattern\Abstract\IUnitOfWork.cs" />
     <Compile Include="IUnitOfWorkPattern\Concreate\UnitofWork.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
