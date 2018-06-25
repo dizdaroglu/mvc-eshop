@@ -17,3 +17,5 @@ C:\e-commerce\eshop\eshopProject\eshop.EntitiesLayer\bin\Debug\eshop.CoreLayer.d
 C:\e-commerce\eshop\eshopProject\eshop.EntitiesLayer\bin\Debug\EntityFramework.dll
 C:\e-commerce\eshop\eshopProject\eshop.EntitiesLayer\bin\Debug\eshop.CoreLayer.pdb
 C:\e-commerce\eshop\eshopProject\eshop.EntitiesLayer\bin\Debug\EntityFramework.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.EntitiesLayer\bin\Debug\EntityFramework.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.EntitiesLayer\bin\Debug\EntityFramework.xml

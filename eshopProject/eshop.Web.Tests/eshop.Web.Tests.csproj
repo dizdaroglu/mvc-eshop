@@ -96,8 +96,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\BrandTest.cs" />
     <Compile Include="Tests\CategoryTest.cs" />
+    <Compile Include="Tests\ColorTest.cs" />
     <Compile Include="Tests\ProductTest.cs" />
+    <Compile Include="Tests\SizeTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />

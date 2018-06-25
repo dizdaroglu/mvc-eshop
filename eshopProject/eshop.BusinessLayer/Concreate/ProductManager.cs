@@ -18,11 +18,14 @@ namespace eshop.BusinessLayer.Concreate
             _unitOfWork = new UnitofWork(new DataAccessLayer.DAL.DatabaseContext());
         }
 
+        
+
         public List<Product> GetProductList()
         {
 
             return _unitOfWork.ProductDal.FindAll();
         }
 
+       
     }
 }

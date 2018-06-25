@@ -160,13 +160,14 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ProductDtoModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\css\bootstrap.min.css" />
-    <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="fonts\font-awesome.min.css" />
     <Content Include="Content\css\nouislider.min.css" />
     <Content Include="Content\css\slick-theme.css" />
     <Content Include="Content\css\slick.css" />
@@ -177,6 +178,38 @@
     <Content Include="fonts\slick.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="img\banner01.jpg" />
+    <Content Include="img\banner02.jpg" />
+    <Content Include="img\banner03.jpg" />
+    <Content Include="img\banner04.jpg" />
+    <Content Include="img\banner05.jpg" />
+    <Content Include="img\banner06.jpg" />
+    <Content Include="img\banner07.jpg" />
+    <Content Include="img\banner08.jpg" />
+    <Content Include="img\banner09.jpg" />
+    <Content Include="img\banner10.jpg" />
+    <Content Include="img\banner11.jpg" />
+    <Content Include="img\banner12.jpg" />
+    <Content Include="img\banner13.jpg" />
+    <Content Include="img\banner14.jpg" />
+    <Content Include="img\banner15.jpg" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\main-product01.jpg" />
+    <Content Include="img\main-product02.jpg" />
+    <Content Include="img\main-product03.jpg" />
+    <Content Include="img\main-product04.jpg" />
+    <Content Include="img\product01.jpg" />
+    <Content Include="img\product02.jpg" />
+    <Content Include="img\product03.jpg" />
+    <Content Include="img\product04.jpg" />
+    <Content Include="img\product05.jpg" />
+    <Content Include="img\product06.jpg" />
+    <Content Include="img\product07.jpg" />
+    <Content Include="img\product08.jpg" />
+    <Content Include="img\thumb-product01.jpg" />
+    <Content Include="img\thumb-product02.jpg" />
+    <Content Include="img\thumb-product03.jpg" />
+    <Content Include="img\thumb-product04.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -227,10 +260,12 @@
     <Content Include="Views\Product\Index.cshtml" />
     <Content Include="Views\Shared\_CategoryListPartial.cshtml" />
     <Content Include="Views\Shared\_SearchPartial.cshtml" />
+    <Content Include="Views\Shared\_PartialColors.cshtml" />
+    <Content Include="Views\Shared\_PartialSizes.cshtml" />
+    <Content Include="Views\Shared\_PartialBrands.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

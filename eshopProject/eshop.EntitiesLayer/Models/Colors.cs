@@ -13,7 +13,8 @@ namespace eshop.EntitiesLayer.Models
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ColorsId { get; set; }
-        public int Code { get; set; }
+        [StringLength(10)]
+        public String Code { get; set; }
         public string Name { get; set; }
 
         // Bu caolor hangş ürnüns

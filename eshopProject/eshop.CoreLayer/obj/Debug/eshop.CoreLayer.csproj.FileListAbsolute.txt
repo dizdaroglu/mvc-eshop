@@ -14,3 +14,8 @@ C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\bin\Debug\EntityFramework.dll
 C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\bin\Debug\EntityFramework.SqlServer.dll
 C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\bin\Debug\EntityFramework.xml
 C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.CoreLayer\bin\Debug\EntityFramework.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.CoreLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.CoreLayer\bin\Debug\EntityFramework.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.CoreLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.CoreLayer\obj\Debug\eshop.CoreLayer.csproj.CopyComplete
