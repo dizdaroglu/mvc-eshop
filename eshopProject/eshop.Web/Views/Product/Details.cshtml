@@ -102,18 +102,22 @@
                             </ul>
                         </div>
 
-                        <div class="product-btns">
-                            <div class="qty-input">
-                                <span class="text-uppercase">Adet: </span>
-                                <input class="input" type="number">
+                        @if (Session["loginCustomer"] != null)
+                        {
+                            <div class="product-btns">
+                                <div class="qty-input">
+                                    <span class="text-uppercase">Adet: </span>
+                                    <input class="input" type="number">
+                                </div>
+                                <button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Sepete Ekle </button>
+                                <div class="pull-right">
+                                    <a href="/Fav/AddToFav/@Model.ProductId" class="main-btn icon-btn"><i class="fa fa-heart"></i></a>
+                                    <button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+                                    <button class="main-btn icon-btn"><i class="fa fa-share-alt"></i></button>
+                                </div>
                             </div>
-                            <button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Sepete Ekle </button>
-                            <div class="pull-right">
-                                <button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
-                                <button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
-                                <button class="main-btn icon-btn"><i class="fa fa-share-alt"></i></button>
-                            </div>
-                        </div>
+                        }
+                        
                     </div>
                 </div>
                 <div class="col-md-12">

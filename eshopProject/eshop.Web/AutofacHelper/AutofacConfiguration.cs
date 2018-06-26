@@ -30,6 +30,7 @@ namespace eshop.Web.AutofacHelper
             builder.RegisterType<SizeManager>().As<ISizeServices>();
             builder.RegisterType<BrandManager>().As<IBrandServices>();
             builder.RegisterType<CustomerManager>().As<ICustomerServices>();
+            builder.RegisterType<FavManager>().As<IFavServices>();
 
             IContainer container =  builder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));

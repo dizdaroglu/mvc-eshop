@@ -99,3 +99,5 @@ C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\eshop.CoreLayer.pdb
 C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\EntityFramework.xml
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\EntityFramework.SqlServer.dll
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.Web.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\e-commerce\eshop\eshopProject\eshop.Web.Tests\bin\Debug\EntityFramework.SqlServer.xml

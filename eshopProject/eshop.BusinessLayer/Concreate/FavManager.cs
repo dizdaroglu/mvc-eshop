@@ -23,14 +23,30 @@ namespace eshop.BusinessLayer.Concreate
             unitOfWork.Complete();
         }
 
-        public Fav GetFav(int? FavId)
+        public Fav GetFav(int? favId)
         {
-            throw new NotImplementedException();
+           if(favId != null)
+            {
+                return unitOfWork.FavDal.Find(m => m.FavId == favId);
+            }
+            return null;
         }
 
-        public void RemoveFav(Fav fav)
+       
+
+        public List<Fav> GetFavList(int favId)
         {
-            //delete
+            return unitOfWork.FavDal.FindAll(m =>m.Customer.CustomerId == favId);
         }
+
+        public void RemoveFav(int favId)
+        {
+            Fav fav = unitOfWork.FavDal.Find(m => m.FavId == favId);
+
+            unitOfWork.FavDal.Remove(fav);
+            unitOfWork.Complete();
+        }
+
+        
     }
 }
