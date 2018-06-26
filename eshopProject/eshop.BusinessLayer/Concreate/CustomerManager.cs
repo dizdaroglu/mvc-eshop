@@ -17,7 +17,21 @@ namespace eshop.BusinessLayer.Concreate
         {
             unitOfWork = new UnitofWork(new DataAccessLayer.DAL.DatabaseContext());
         }
-       
+
+        public bool AnyEmail(string email)
+        {
+            return unitOfWork.CustomerDal.FindAll().Any(m => m.Email.Equals(email));
+        }
+
+        public bool AnyUsername(string username)
+        {
+            if (String.IsNullOrEmpty(username))
+            {
+                return unitOfWork.CustomerDal.FindAll().Any(m => m.UserName.Equals(username)); 
+            }
+            return false;
+        }
+
         public bool CustomerLogin(string userName, string password)
         {
             
@@ -31,5 +45,10 @@ namespace eshop.BusinessLayer.Concreate
             return unitOfWork.CustomerDal.Find(m => m.UserName.Equals(username));
         }
 
+        public void Register(Customer customer)
+        {
+            unitOfWork.CustomerDal.Add(customer);
+            unitOfWork.Complete();
+        }
     }
 }

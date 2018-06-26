@@ -14,11 +14,17 @@ namespace eshop.EntitiesLayer.Models
         [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int CustomerId { get; set; }
 
+        
         public String Name { get; set; }
         public String Surname { get; set; }
+
+        [Required(ErrorMessage ="Lütfen bu alanı boş bırakmayınız.")]
         public String Email { get; set; }
 
+        [Required(ErrorMessage ="Lütfen bu  alanı boş bırakmayınız.")]
         public String UserName { get; set; }
+
+        [Required(ErrorMessage = "Lütfen bu  alanı boş bırakmayınız.")]
         public String Password { get; set; }
         public String ProfileImage { get; set; }
 

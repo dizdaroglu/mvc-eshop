@@ -18,7 +18,7 @@ namespace eshop.EntitiesLayer.Models
         public String Description { get; set; }
         public double UnitPrice { get; set; }
         public int UnitsInStock { get; set; }
-        public int? Star { get; set; }
+       // public int? Star { get; set; }
 
 
         // Burada ilişkiler var!

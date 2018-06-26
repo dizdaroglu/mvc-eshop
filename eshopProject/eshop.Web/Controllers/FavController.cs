@@ -13,7 +13,7 @@ namespace eshop.Web.Controllers
     {
         private IFavServices favServices;
         private IProductServices productServices;
-        public FavController(IFavServices favServices,IProductServices productServices)
+        public FavController(IFavServices favServices, IProductServices productServices)
         {
             this.favServices = favServices;
             this.productServices = productServices;
@@ -21,8 +21,8 @@ namespace eshop.Web.Controllers
         // GET: Fav
         public ActionResult AddToFav(int id)
         {
-             Customer customer =  Session["loginCustomer"] as Customer;
-            if(customer != null)
+            Customer customer = Session["loginCustomer"] as Customer;
+            if (customer != null)
             {
                 Product product = productServices.GetProductById(id);
                 Fav fav = new Fav()
@@ -39,15 +39,13 @@ namespace eshop.Web.Controllers
 
             return RedirectToAction("Index", "Home");
         }
-        //public ActionResult RemoveFav(int id)
-        //{
-        //    if(id != null)
-        //    {
-                
-        //        favServices.RemoveFav(favServices.GetFav(id));
-        //        return View();
-        //    }
-        //    return View();
-        //}
+        public ActionResult RemoveFav(int id)
+        {
+
+            favServices.RemoveFav(id);
+            return RedirectToAction("Index", "Product");
+
+
+        }
     }
 }

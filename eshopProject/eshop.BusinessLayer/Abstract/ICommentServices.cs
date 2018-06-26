@@ -7,12 +7,9 @@ using System.Threading.Tasks;
 
 namespace eshop.BusinessLayer.Abstract
 {
-  public interface IFavServices
+    public interface ICommentServices
     {
-        void AddFav(Fav fav);
-        void RemoveFav(int favId);
-       
-        List<Fav> GetFavList(int customerId);
-        Fav GetFav(int? favId);
+        void DoComment(Comments comments);
+
     }
 }

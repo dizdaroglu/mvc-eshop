@@ -31,12 +31,10 @@ namespace eshop.BusinessLayer.Concreate
             }
             return null;
         }
-
-       
-
-        public List<Fav> GetFavList(int favId)
+        
+        public List<Fav> GetFavList(int customerId)
         {
-            return unitOfWork.FavDal.FindAll(m =>m.Customer.CustomerId == favId);
+            return unitOfWork.FavDal.FindAll(m =>m.Customer.CustomerId == customerId);
         }
 
         public void RemoveFav(int favId)

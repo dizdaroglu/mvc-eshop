@@ -12,5 +12,12 @@ namespace eshop.BusinessLayer.Abstract
         bool CustomerLogin(string userName,string password);
 
         Customer GetCustomerByUsername(String username);
+
+        void Register(Customer customer);
+
+        bool AnyEmail(String email);
+
+        bool AnyUsername(String username);
+
     }
 }
