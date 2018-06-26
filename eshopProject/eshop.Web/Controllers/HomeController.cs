@@ -69,5 +69,10 @@ namespace eshop.Web.Controllers
             List<Brand> brands = _brandServices.GetBrands();
             return View(brands);
         }
+        public ActionResult _MenuNavPartial()
+        {
+            List<Category> list = _categoryServices.GetCategories();
+            return View(list);
+        }
     }
 }

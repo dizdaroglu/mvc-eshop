@@ -10,7 +10,9 @@ namespace eshop.BusinessLayer.Abstract
   public interface IFavServices
     {
         void AddFav(Fav fav);
-        void RemoveFav(Fav fav);
-        Fav GetFav(int? FavId);
+        void RemoveFav(int favId);
+       
+        List<Fav> GetFavList(int favId);
+        Fav GetFav(int? favId);
     }
 }
