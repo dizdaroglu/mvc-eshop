@@ -10,5 +10,7 @@ namespace eshop.DataAccessLayer.Abstract
 {
     public interface ICategoryDal:IGenericRepository<Category>
     {
+
+        List<Category> GetCategoriesList();
     }
 }

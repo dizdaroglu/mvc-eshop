@@ -10,16 +10,18 @@ using System.Threading.Tasks;
 
 namespace eshop.BusinessLayer.Concreate
 {
-    public class CategoryManager : ICategoryServices
+    public class CommentsManager : ICommentServices
     {
-        private IUnitOfWork unitOfWork;
-        public CategoryManager()
+        private IUnitOfWork _uow;
+        public CommentsManager()
         {
-            unitOfWork = new UnitofWork(new DataAccessLayer.DAL.DatabaseContext());
+            _uow = new UnitofWork(new DataAccessLayer.DAL.DatabaseContext());
         }
-        public List<Category> GetCategories()
+
+        public void DoComment(Comments comments)
         {
-            return unitOfWork.CategoryDal.GetCategoriesList();
+            _uow.CommentsDal.Add(comments);
+            _uow.Complete();
         }
     }
 }

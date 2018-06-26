@@ -14,12 +14,14 @@ namespace eshop.Web.Controllers
         private IColorServices _colorServices;
         private ISizeServices _sizeServices;
         private IBrandServices _brandServices;
-        public HomeController(ICategoryServices categoryServices,IColorServices colorServices,ISizeServices sizeServices,IBrandServices brandServices)
+        private IBasketServices _basketServices;
+        public HomeController( IBasketServices basketServices, ICategoryServices categoryServices,IColorServices colorServices,ISizeServices sizeServices,IBrandServices brandServices)
         {
             _categoryServices = categoryServices;
             _colorServices = colorServices;
             _sizeServices = sizeServices;
             _brandServices = brandServices;
+            _basketServices = basketServices;
         }
 
         public ActionResult Index()
@@ -74,5 +76,13 @@ namespace eshop.Web.Controllers
             List<Category> list = _categoryServices.GetCategories();
             return View(list);
         }
+
+        public ActionResult _BasketPartial()
+        {
+            Customer loginCustomer = Session["loginCustomer"] as Customer;
+            List<Basket> list = _basketServices.GetBaskets(loginCustomer.UserName);
+            return View(list);
+        }
+            
     }
 }

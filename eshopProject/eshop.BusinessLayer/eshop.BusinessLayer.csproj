@@ -40,17 +40,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IBasketServices.cs" />
     <Compile Include="Abstract\IBrandServices.cs" />
     <Compile Include="Abstract\ICategoryServices.cs" />
     <Compile Include="Abstract\IColorServices.cs" />
+    <Compile Include="Abstract\ICommentServices.cs" />
     <Compile Include="Abstract\ICustomerServices.cs" />
     <Compile Include="Abstract\IFavServices.cs" />
     <Compile Include="Abstract\IHomeSliderServices.cs" />
     <Compile Include="Abstract\IProductServices.cs" />
     <Compile Include="Abstract\ISizeServices.cs" />
+    <Compile Include="Concreate\BasketManager.cs" />
     <Compile Include="Concreate\BrandManager.cs" />
     <Compile Include="Concreate\CategoryManager.cs" />
     <Compile Include="Concreate\ColorManager.cs" />
+    <Compile Include="Concreate\CommentsManager.cs" />
     <Compile Include="Concreate\CustomerManager.cs" />
     <Compile Include="Concreate\FavManager.cs" />
     <Compile Include="Concreate\HomeSliderManager.cs" />

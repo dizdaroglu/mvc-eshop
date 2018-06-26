@@ -1,0 +1,54 @@
+﻿@model eshop.EntitiesLayer.Models.Customer
+
+@{
+    ViewBag.Title = "MyAccount";
+}
+
+<div class="container">
+    <div class="row" style="margin-top:60px;">
+        <h2 class="text-center"> @Model.Name @Model.Surname profiliniz </h2>
+    </div>
+    <div class="row" style="margin:2px;">
+        <div class="col-md-4">
+            <img src="@Model.ProfileImage" class="img-circle" width="100" />
+        </div>
+        <div class="col-md-3 col-md-pull-2 ">
+            Ad: <input type="text" class="form-control" value="@Model.Name" />
+            Surname: <input type="text" class="form-control" value="@Model.Surname" />
+            Email: <input type="text" class="form-control" value="@Model.Email" />
+            UserName: <input type="text" class="form-control" value="@Model.UserName" /> <br />
+            <input type="submit" class="btn btn-success" value="Güncelle" />
+        </div>
+        <div class="col-md-5 col-md-pull-1 ">
+            <div class="col-md-4">
+                <span class="fa fa-2x fa-comment">@Model.Comments.Count()</span>
+                @if (Model.Comments.Count() == 0) {
+                    <br/> <b>Yaptıgınız yorum bulunmamaktadır.</b>
+                }
+                    
+            </div>
+
+            <div class="col-md-4">
+                <span class="fa fa-2x fa-heart">@Model.Favs.Count()</span>
+                @if (Model.Favs.Count() == 0)
+                {
+                    <b>Yaptıgınız favori bulunmamaktadır.</b>
+                }
+
+            </div>
+
+            <div class="col-md-4">
+
+                <span class="fa fa-2x fa-shopping-cart">@Model.Baskets.Count()</span>
+                @if (Model.Baskets.Count() == 0)
+                {
+                    <b>Yaptıgınız alışveriş bulunmamaktadır.</b>
+                }
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+

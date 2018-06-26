@@ -155,6 +155,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="AutofacHelper\AutofacConfiguration.cs" />
+    <Compile Include="Controllers\BasketController.cs" />
     <Compile Include="Controllers\CommentController.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\FavController.cs" />
@@ -197,6 +198,7 @@
     <Content Include="img\banner13.jpg" />
     <Content Include="img\banner14.jpg" />
     <Content Include="img\banner15.jpg" />
+    <Content Include="img\bay.png" />
     <Content Include="img\logo.png" />
     <Content Include="img\main-product01.jpg" />
     <Content Include="img\main-product02.jpg" />
@@ -270,9 +272,13 @@
     <Content Include="Views\Product\Details.cshtml" />
     <Content Include="Views\Customer\Login.cshtml" />
     <Content Include="Views\Shared\_MenuNavPartial.cshtml" />
+    <Content Include="Views\Home\_BasketPartial.cshtml" />
+    <Content Include="Views\Customer\MyAccount.cshtml" />
+    <Content Include="Views\Customer\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Basket\" />
     <Folder Include="Views\Comment\" />
   </ItemGroup>
   <ItemGroup>
