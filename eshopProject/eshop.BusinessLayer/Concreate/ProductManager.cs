@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace eshop.BusinessLayer.Concreate
 {
-    public class ProductManager:IProductServices
+    public class ProductManager : IProductServices
     {
         private IUnitOfWork _unitOfWork;
         public ProductManager()
@@ -29,6 +29,14 @@ namespace eshop.BusinessLayer.Concreate
             return _unitOfWork.ProductDal.FindAll();
         }
 
-       
+        public List<Product> SearchList(string searchText, string categoryName)
+        {
+            if ((String.IsNullOrEmpty(searchText) || searchText == "") && (String.IsNullOrEmpty(categoryName) || categoryName == ""))
+            {
+                return _unitOfWork.ProductDal.FindAll();
+            }
+            return _unitOfWork.ProductDal.FindAll(m => m.SubCategory.Category.Name.Contains(categoryName) && m.Name.Contains(searchText));
+        }
+
     }
 }
