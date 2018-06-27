@@ -16,18 +16,26 @@ namespace eshop.Web.Controllers
         {
             _productServices = productServices;
         }
-        // GET: Product
-        public ActionResult Index()
-        {
-            List<Product> list = _productServices.GetProductList();
-            return View(list);
-        }
+        //// GET: Product
+        //public ActionResult Index()
+        //{
+        //    List<Product> list = _productServices.GetProductList();
+        //    return View(list);
+        //}
 
         public ActionResult Details(int id)
         {
             Product product = _productServices.GetProductById(id);
             return View(product);
         }
-       
+
+        public ActionResult Index(String searchBy, String res)
+        {
+            List<Product> listProducts = _productServices.SearchList(searchBy, res);
+            return View(listProducts);
+        }
+
+
+
     }
 }

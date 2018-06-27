@@ -13,7 +13,7 @@ namespace eshop.BusinessLayer.Abstract
 
         Product GetProductById(int productId);
 
-
+        List<Product> SearchList(String searchText, String categoryName);
 
     }
 }

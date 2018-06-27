@@ -3,20 +3,39 @@
     ViewBag.Title = "_SearchPartial";
     Layout = null;
 }
-
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
 <div class="header-search">
-    <form>
-        <input class="input search-input" type="text" placeholder="Enter your keyword">
-        <select class="input search-categories">
+   
+        <input class="input search-input" id="txtSearch"  type="text" placeholder="Enter your keyword">
+        <select class="input search-categories" id="sortBy" >
             <option value="0">All Categories</option>
             @foreach (var item in Model)
             {
-                <option value="1">@item.Name</option>
+                <option>@item.Name</option>
              
 
 
             }
         </select>
-        <button class="search-btn"><i class="fa fa-search"></i></button>
-    </form>
+        <button class="search-btn" id="btnSearch" ><i class="fa fa-search"></i></button>
+    
 </div>
+
+<script>
+    $(function () {
+
+        var res = "";
+        $("#sortBy").change(function (index, element) {
+            res = $("#sortBy option:selected").text();
+        });
+
+        $("#btnSearch").click(function () {
+            var searchBy = $("#txtSearch").val();
+            // alert("TextSearch= " + searchBy + " Kategori:  " + res);
+            window.location.href = "/Product/Index?searchBy=" + searchBy + "&res=" + res;
+        });
+
+
+    });
+
+</script>
