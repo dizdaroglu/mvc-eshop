@@ -24,6 +24,41 @@ namespace eshop.BusinessLayer.Concreate
             _uow.Complete();
         }
 
+        public int basketCount()
+        {
+            return _uow.BasketDal.FindAll().Count();
+        }
+
+        public int basketCreate(Basket basket)
+        {
+            _uow.BasketDal.Add(basket);
+            return _uow.Complete();
+        }
+
+        public int basketDelete(int id)
+        {
+           Basket find = _uow.BasketDal.Find(m=>m.BasketId == id);
+            
+            _uow.BasketDal.Remove(find);
+
+            return _uow.Complete();
+        }
+
+        public Basket basketDetails(int id)
+        {
+            return _uow.BasketDal.Find(m=>m.BasketId == id);
+        }
+
+        public int basketUpdate()
+        {
+            return _uow.Complete();
+        }
+
+        public List<Basket> getBasket()
+        {
+            return _uow.BasketDal.FindAll();
+        }
+
         public List<Basket> GetBaskets(string username)
         {
             return _uow.BasketDal.FindAll(m => m.Customer.UserName.Equals(username));

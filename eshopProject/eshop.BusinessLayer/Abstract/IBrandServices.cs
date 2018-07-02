@@ -10,6 +10,10 @@ namespace eshop.BusinessLayer.Abstract
     public interface IBrandServices
     {
         List<Brand> GetBrands();
-        
+
+        Brand brandDetails(int id);
+        int brandUpdate();
+        int brandDelete(int id);
+        int brandCreate(Brand brand);
     }
 }

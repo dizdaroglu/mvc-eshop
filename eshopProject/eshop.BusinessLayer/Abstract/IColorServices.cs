@@ -12,5 +12,9 @@ namespace eshop.BusinessLayer.Abstract
 
         // Bir ürünün sahip oldugu renk listesi 
         List<Colors> GetColors();
+        Colors colorDetails(int id);
+        int colorUpdate();
+        int colorDelete(int id);
+        int colorCreate(Colors color);
     }
 }

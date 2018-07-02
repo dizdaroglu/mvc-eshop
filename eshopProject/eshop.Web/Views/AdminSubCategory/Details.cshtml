@@ -1,0 +1,59 @@
+﻿@model eshop.EntitiesLayer.Models.SubCategory
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SubCategory</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifiedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RemovedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RemovedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SubCategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SubCategoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SubCategoryDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SubCategoryDescription)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <a href="/AdminSubCategory/Edit/@Model.SubCategoryId" class="btn btn-success">Edit</a>
+    <a href="/AdminSubCategory/getSubCategory" class="btn btn-default" btn-sm>Geri Dön</a>
+</p>

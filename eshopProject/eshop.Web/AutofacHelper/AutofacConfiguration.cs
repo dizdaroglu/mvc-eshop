@@ -32,7 +32,8 @@ namespace eshop.Web.AutofacHelper
             builder.RegisterType<CustomerManager>().As<ICustomerServices>();
             builder.RegisterType<FavManager>().As<IFavServices>();
             builder.RegisterType<BasketManager>().As<IBasketServices>();
-
+            builder.RegisterType<CommentsManager>().As<ICommentServices>();
+            builder.RegisterType<SubCategoryManager>().As<ISubCategoryServices>();
             IContainer container =  builder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
 

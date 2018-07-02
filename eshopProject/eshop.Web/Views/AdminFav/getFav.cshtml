@@ -1,0 +1,60 @@
+﻿@model List<eshop.EntitiesLayer.Models.Fav>
+
+@{
+    ViewBag.Title = "getFav";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Favs</h3>
+<a href="/Admin/Index" class="btn btn-primary">Geri Dön</a>
+
+<table class="table">
+    <tr>
+        <th>
+            Kullanıcı
+        </th>
+        <th>
+            Ürün
+        </th>
+        <th>
+            CreatedDate
+        </th>
+        <th>
+            ModifiedDate
+        </th>
+        <th>
+            RemovedDate
+        </th>
+        
+        
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Customer.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Product.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreatedDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ModifiedDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RemovedDate)
+        </td>
+        
+        
+        <td>
+            <a href="/AdminFav/Update/@item.FavId" class="btn btn-success" title="Güncelle"><span class="fa fa-pencil"></span></a>
+            <a href="/AdminFav/Delete/@item.FavId" class="btn btn-danger" title="Sil"><span class="fa fa-trash"></span></a>
+            <a href="/AdminFav/Details/@item.FavId" class="btn btn-info" title="Detay"><span class="fa fa-list"></span></a>
+        </td>
+    </tr>
+}
+
+</table>

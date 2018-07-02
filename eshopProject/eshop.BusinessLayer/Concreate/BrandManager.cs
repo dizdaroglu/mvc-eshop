@@ -17,6 +17,33 @@ namespace eshop.BusinessLayer.Concreate
         {
             _uow = new UnitofWork(new DataAccessLayer.DAL.DatabaseContext());
         }
+
+        public int brandCreate(Brand brand)
+        {
+            _uow.BrandDal.Add(brand);
+            return _uow.Complete();
+        }
+
+        public int brandDelete(int id)
+        {
+            Brand find = _uow.BrandDal.Find(m => m.BrandId == id);
+            
+           
+            _uow.BrandDal.Remove(find);
+
+            return _uow.Complete();
+        }
+
+        public Brand brandDetails(int id)
+        {
+            return _uow.BrandDal.Find(m => m.BrandId == id);
+        }
+
+        public int brandUpdate()
+        {
+            return _uow.Complete();
+        }
+
         public List<Brand> GetBrands()
         {
             return _uow.BrandDal.FindAll();

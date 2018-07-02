@@ -1,0 +1,59 @@
+﻿@model eshop.EntitiesLayer.Models.Brand
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Brand</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifiedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RemovedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RemovedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BrandName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BrandName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BrandIcon)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BrandIcon)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <a href="/AdminBrand/Edit/@Model.BrandId" class="btn btn-success">Edit</a>
+    <a href="/AdminBrand/getBrand" class="btn btn-default" btn-sm>Geri Dön</a>
+</p>

@@ -19,6 +19,30 @@ namespace eshop.BusinessLayer.Concreate
             _unitOfWork = new UnitofWork(new DataAccessLayer.DAL.DatabaseContext());
         }
 
+        public int colorCreate(Colors color)
+        {
+            _unitOfWork.ColorsDal.Add(color);
+            return _unitOfWork.Complete();
+        }
+
+        public int colorDelete(int id)
+        {
+           Colors find = _unitOfWork.ColorsDal.Find(m => m.ColorsId == id);
+          
+            _unitOfWork.ColorsDal.Remove(find);
+            return _unitOfWork.Complete();
+        }
+
+        public Colors colorDetails(int id)
+        {
+            return _unitOfWork.ColorsDal.Find(m =>m.ColorsId == id);
+        }
+
+        public int colorUpdate()
+        {
+            return _unitOfWork.Complete();
+        }
+
         public List<Colors> GetColors()
         {
             return _unitOfWork.ColorsDal.FindAll();

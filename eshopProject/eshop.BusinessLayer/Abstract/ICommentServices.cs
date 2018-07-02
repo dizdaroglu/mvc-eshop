@@ -11,5 +11,14 @@ namespace eshop.BusinessLayer.Abstract
     {
         void DoComment(Comments comments);
 
+       
+#region Admin
+        List<Comments> getComment();
+        int commentCount();
+        #endregion
+        Comments commentsDetails(int id);
+        int commentsUpdate();
+        int commentsDelete(int id);
+        int commentCreate(Comments comment);
     }
 }

@@ -15,5 +15,13 @@ namespace eshop.BusinessLayer.Abstract
 
         void RemoveBasket(int basketId);
 
+        #region Admin
+        List<Basket> getBasket();
+        int basketCount();
+        Basket basketDetails(int id);
+        int basketUpdate();
+        int basketDelete(int id);
+        int basketCreate(Basket basket);
+#endregion
     }
 }

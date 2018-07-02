@@ -23,6 +23,25 @@ namespace eshop.BusinessLayer.Concreate
             unitOfWork.Complete();
         }
 
+        public int favDelete(int id)
+        {
+            Fav find = unitOfWork.FavDal.Find(m => m.FavId == id);
+            
+            unitOfWork.FavDal.Remove(find);
+
+            return unitOfWork.Complete();
+        }
+
+        public Fav favDetails(int id)
+        {
+            return unitOfWork.FavDal.Find(m=>m.FavId == id);
+        }
+
+        public int favUpdate()
+        {
+            return unitOfWork.Complete();
+        }
+
         public Fav GetFav(int? favId)
         {
            if(favId != null)
@@ -31,7 +50,12 @@ namespace eshop.BusinessLayer.Concreate
             }
             return null;
         }
-        
+
+        public List<Fav> GetFav()
+        {
+            return unitOfWork.FavDal.FindAll();
+        }
+
         public List<Fav> GetFavList(int customerId)
         {
             return unitOfWork.FavDal.FindAll(m =>m.Customer.CustomerId == customerId);

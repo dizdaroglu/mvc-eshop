@@ -19,5 +19,13 @@ namespace eshop.BusinessLayer.Abstract
 
         bool AnyUsername(String username);
 
+        #region Admin
+        List<Customer> getCustomer();
+        int customerCount();
+        Customer customerDetails(int id);
+        int customerUpdate();
+        int customerDelete(int id);
+        int customerCreate(Customer customer);
+        #endregion
     }
 }

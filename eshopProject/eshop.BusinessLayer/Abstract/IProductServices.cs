@@ -15,5 +15,13 @@ namespace eshop.BusinessLayer.Abstract
 
         List<Product> SearchList(String searchText, String categoryName);
 
+
+        #region Admin
+        int productCount();
+        Product productDetails(int id);
+        int productUpdate();
+        int productDelete(int id);
+        int productCreate(Product product);
+#endregion
     }
 }

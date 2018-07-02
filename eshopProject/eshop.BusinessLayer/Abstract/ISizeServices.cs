@@ -11,5 +11,9 @@ namespace eshop.BusinessLayer.Abstract
     {
         // Bür ürünün sahip oldugu sizelar 
         List<Size> GetSizeList();
+        Size sizeDetails(int id);
+        int sizeUpdate();
+        int sizeDelete(int id);
+        int sizeCreate(Size size);
     }
 }

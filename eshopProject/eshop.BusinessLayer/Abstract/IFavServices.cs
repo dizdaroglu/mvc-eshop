@@ -14,5 +14,13 @@ namespace eshop.BusinessLayer.Abstract
        
         List<Fav> GetFavList(int customerId);
         Fav GetFav(int? favId);
+
+        #region Admin
+        List<Fav> GetFav();
+        Fav favDetails(int id);
+        int favUpdate();
+        int favDelete(int id);
+        #endregion
+
     }
 }

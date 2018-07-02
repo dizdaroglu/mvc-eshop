@@ -11,7 +11,6 @@ C:\e-commerce\eshop\eshopProject\eshop.WebAPI\bin\Newtonsoft.Json.xml
 C:\e-commerce\eshop\eshopProject\eshop.WebAPI\bin\System.Net.Http.Formatting.xml
 C:\e-commerce\eshop\eshopProject\eshop.WebAPI\bin\System.Web.Http.xml
 C:\e-commerce\eshop\eshopProject\eshop.WebAPI\bin\System.Web.Http.WebHost.xml
-C:\e-commerce\eshop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.csprojResolveAssemblyReference.cache
 C:\e-commerce\eshop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.csproj.CoreCompileInputs.cache
 C:\e-commerce\eshop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.dll
 C:\e-commerce\eshop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.pdb
@@ -33,3 +32,4 @@ D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.csproj.CopyComplete
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.dll
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.pdb
+C:\e-commerce\eshop\eshopProject\eshop.WebAPI\obj\Debug\eshop.WebAPI.csprojResolveAssemblyReference.cache

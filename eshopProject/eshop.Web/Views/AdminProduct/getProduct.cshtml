@@ -1,0 +1,65 @@
+﻿@model List<eshop.EntitiesLayer.Models.Product>
+
+@{
+    ViewBag.Title = "getProduct";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Products</h2>
+
+<a href="/Admin/Index"><span class="fa fa-arrow-left  "></span></a>
+<a href="/AdminProduct/Create" style="float:right;"><span class="fa fa-plus-circle"></span></a>
+<table class="table">
+    <tr>
+        
+        <th>
+            Name
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+            UnitPrice
+        </th>
+        <th>
+            CreatedDate
+        </th>
+        <th>
+            ModifiedDate
+        </th>
+        <th>
+            RemovedDate
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UnitPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreatedDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ModifiedDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RemovedDate)
+        </td>
+        <td>
+            <a href="/AdminProduct/Update/@item.ProductId" class="btn btn-success" title="Güncelle"><span class="fa fa-pencil"></span></a>
+            <a href="/AdminProduct/Delete/@item.ProductId" class="btn btn-danger" title="Sil"><span class="fa fa-trash"></span></a>
+            <a href="/AdminProduct/Details/@item.ProductId" class="btn btn-info" title="Detay"><span class="fa fa-list"></span></a>
+        </td>
+    </tr>
+}
+
+</table>

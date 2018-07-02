@@ -22,5 +22,30 @@ namespace eshop.BusinessLayer.Concreate
         {
             return _unitOfWork.SizeDal.FindAll();
         }
+
+        public int sizeCreate(Size size)
+        {
+            _unitOfWork.SizeDal.Add(size);
+           return _unitOfWork.Complete();
+        }
+
+        public int sizeDelete(int id)
+        {
+            Size find = _unitOfWork.SizeDal.Find(m => m.SizeId == id);
+           
+            _unitOfWork.SizeDal.Remove(find);
+
+            return _unitOfWork.Complete();
+        }
+
+        public Size sizeDetails(int id)
+        {
+            return _unitOfWork.SizeDal.Find(m => m.SizeId == id);
+        }
+
+        public int sizeUpdate()
+        {
+            return _unitOfWork.Complete();
+        }
     }
 }

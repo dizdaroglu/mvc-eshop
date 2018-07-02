@@ -1,0 +1,59 @@
+﻿@model IEnumerable<eshop.EntitiesLayer.Models.Brand>
+
+@{
+    ViewBag.Title = "getBrand";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Brands</h2>
+
+<a href="/Admin/Index"><span class="fa fa-arrow-left  "></span></a>
+<a href="/AdminBrand/Create" style="float:right;"><span class="fa fa-plus-circle"></span></a>
+<table class="table">
+    <tr>
+        
+        <th>
+            BrandName
+        </th>
+        <th>
+            BrandIcon
+        </th>
+        <th>
+            CreatedDate
+        </th>
+        <th>
+            ModifiedDate
+        </th>
+        <th>
+            RemovedDate
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.BrandName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BrandIcon)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreatedDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ModifiedDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RemovedDate)
+        </td>
+        <td>
+            <a href="/AdminBrand/Update/@item.BrandId" class="btn btn-success" title="Güncelle"><span class="fa fa-pencil"></span></a>
+            <a href="/AdminBrand/Delete/@item.BrandId" class="btn btn-danger" title="Sil"><span class="fa fa-trash"></span></a>
+            <a href="/AdminBrand/Details/@item.BrandId" class="btn btn-info" title="Detay"><span class="fa fa-list"></span></a>
+        </td>
+    </tr>
+}
+
+</table>

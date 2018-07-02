@@ -1,0 +1,53 @@
+﻿@model IEnumerable<eshop.EntitiesLayer.Models.Basket>
+
+@{
+    ViewBag.Title = "getBasket";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Basket</h2>
+
+<a href="/Admin/Index"><span class="fa fa-arrow-left  "></span></a>
+<a href="/AdminBasket/Create" style="float:right;"><span class="fa fa-plus-circle"></span></a>
+<table class="table">
+    <tr>
+        <th>Kullanıcı</th>
+        <th>Ürün</th>
+        <th>
+            CreatedDate
+        </th>
+        <th>
+            ModifiedDate
+        </th>
+        <th>
+            RemovedDate
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Customer.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Product.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreatedDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ModifiedDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RemovedDate)
+        </td>
+        <td>
+            <a href="/AdminBasket/Update/@item.BasketId" class="btn btn-success" title="Güncelle"><span class="fa fa-pencil"></span></a>
+            <a href="/AdminBasket/Delete/@item.BasketId" class="btn btn-danger" title="Sil"><span class="fa fa-trash"></span></a>
+            <a href="/AdminBasket/Details/@item.BasketId" class="btn btn-info" title="Detay"><span class="fa fa-list"></span></a>
+        </td>
+    </tr>
+}   
+
+</table>

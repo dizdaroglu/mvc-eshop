@@ -50,6 +50,7 @@
     <Compile Include="Abstract\IHomeSliderServices.cs" />
     <Compile Include="Abstract\IProductServices.cs" />
     <Compile Include="Abstract\ISizeServices.cs" />
+    <Compile Include="Abstract\ISubCategoryServices.cs" />
     <Compile Include="Concreate\BasketManager.cs" />
     <Compile Include="Concreate\BrandManager.cs" />
     <Compile Include="Concreate\CategoryManager.cs" />
@@ -60,6 +61,7 @@
     <Compile Include="Concreate\HomeSliderManager.cs" />
     <Compile Include="Concreate\ProductManager.cs" />
     <Compile Include="Concreate\SizeManager.cs" />
+    <Compile Include="Concreate\SubCategoryManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,6 +1,5 @@
 C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\bin\Debug\eshop.CoreLayer.dll
 C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\bin\Debug\eshop.CoreLayer.pdb
-C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\obj\Debug\eshop.CoreLayer.csprojResolveAssemblyReference.cache
 C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\obj\Debug\eshop.CoreLayer.csproj.CoreCompileInputs.cache
 C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\obj\Debug\eshop.CoreLayer.dll
 C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\obj\Debug\eshop.CoreLayer.pdb
@@ -18,3 +17,4 @@ D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.CoreLayer\bin\Debug\EntityFram
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.CoreLayer\bin\Debug\EntityFramework.xml
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.CoreLayer\bin\Debug\EntityFramework.SqlServer.xml
 D:\GLOBAL PROJECT\furki_e_shop\eshopProject\eshop.CoreLayer\obj\Debug\eshop.CoreLayer.csproj.CopyComplete
+C:\e-commerce\eshop\eshopProject\eshop.CoreLayer\obj\Debug\eshop.CoreLayer.csprojResolveAssemblyReference.cache

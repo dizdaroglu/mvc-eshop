@@ -18,10 +18,44 @@ namespace eshop.BusinessLayer.Concreate
             _uow = new UnitofWork(new DataAccessLayer.DAL.DatabaseContext());
         }
 
+        public int commentCount()
+        {
+            return _uow.CommentsDal.FindAll().Count();
+        }
+
+        public int commentCreate(Comments comment)
+        {
+            _uow.CommentsDal.Add(comment);
+            return _uow.Complete();
+        }
+
+        public int commentsDelete(int id)
+        {
+            Comments find = _uow.CommentsDal.Find(m=>m.CommentId == id);
+
+            _uow.CommentsDal.Remove(find);
+            return _uow.Complete();
+        }
+
+        public Comments commentsDetails(int id)
+        {
+            return _uow.CommentsDal.Find(m => m.CommentId == id);
+        }
+
+        public int commentsUpdate()
+        {
+            return _uow.Complete();
+        }
+
         public void DoComment(Comments comments)
         {
             _uow.CommentsDal.Add(comments);
             _uow.Complete();
+        }
+
+        public List<Comments> getComment()
+        {
+            return _uow.CommentsDal.FindAll();
         }
     }
 }

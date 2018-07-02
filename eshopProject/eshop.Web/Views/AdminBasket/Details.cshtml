@@ -1,0 +1,43 @@
+﻿@model eshop.EntitiesLayer.Models.Basket
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Basket</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifiedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RemovedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RemovedDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <a href="/AdminBasket/Edit/@Model.BasketId" class="btn btn-success">Edit</a>
+    <a href="/AdminBasket/getBasket" class="btn btn-default" btn-sm>Geri Dön</a>
+</p>
